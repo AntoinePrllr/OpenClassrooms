@@ -124,6 +124,67 @@ a {
 
 /* Mes ajouts */
 
+/* Formulaire localisation */
+
+.barre_de_recherche {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 0 2px #F2F2F2;
+    overflow: hidden;
+    padding-left: 12px;
+    width: fit-content;
+}
+
+.barre_de_recherche svg {
+    margin-right: 10px;
+    min-width: 18px;
+    min-height: 18px;
+    display: block;
+}
+
+.barre_de_recherche input[type="text"] {
+    border: none;
+    outline: none;
+    padding: 14px 16px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    background: transparent;
+    width: 150px;
+}
+
+.barre_de_recherche button {
+    background: #0065fc;
+    color: #fff;
+    border: none;
+    padding: 13px 22px;
+    border-radius: 0 15px 15px 0;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.barre_de_recherche button:hover {
+    background: #0050be;
+}
+
+.barre_de_recherche input::placeholder {
+    color: #333;
+    opacity: 0.7;
+}
+
+
+/* Enlever le gras du h3 */
+
+.titre_non_gras {
+    font-weight: normal;
+}
+
+/* Header */
+
 header {
     display: flex;
     align-items: center;
@@ -171,8 +232,8 @@ header {
 .case_logo {
     width: 161.09px;
     height: 79px;
-    display: flex; 
-    align-items: center; 
+    display: flex;
+    align-items: center;
     justify-content: center;
 }
 
