@@ -484,10 +484,27 @@ header {
     .case_logo {
         justify-content: center;
         width: 100%;
+        height: auto;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+
+    .liens {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .h_a_lien {
+        height: auto;
     }
 
     body {
         overflow-x: hidden;
+    }
+
+    .main-container {
+        margin: 0 auto;
+        width: 100%;
     }
 
 }
