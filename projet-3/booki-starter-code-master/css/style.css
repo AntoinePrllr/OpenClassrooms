@@ -42,6 +42,10 @@ a {
     font-size: 22px;
 }
 
+h1 {
+    font-size: 22px;
+}
+
 /* Footer */
 .footer {
     background-color: #f2f2f2;
@@ -353,6 +357,7 @@ a {
 /* Enlever le gras du h3 */
 .titre_non_gras {
     font-weight: normal;
+    font-size: 19px;
 }
 
 /* Header */
