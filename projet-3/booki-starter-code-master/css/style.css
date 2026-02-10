@@ -486,25 +486,44 @@ header {
         padding: 0;
     }
 
+    main {
+        padding: 0 20px;
+    }
+
     .case_logo {
         justify-content: center;
         width: 100%;
         height: auto;
-        margin-bottom: 30px;
-        margin-top: 30px;
+        margin: 20px 0 10px;
     }
 
     .liens {
+        display: flex;
         width: 100%;
         justify-content: center;
+        gap: 0;
     }
 
     .h_a_lien {
         height: auto;
+        width: 50%;
+        justify-content: center;
+        padding: 15px 0;
+        border-top: none;
+        border-bottom: 2px solid #f2f2f2;
+    }
+
+    .h_a_lien:hover {
+        border-top: none;
+        border-bottom: 2px solid #0065FC;
     }
 
     body {
         overflow-x: hidden;
+    }
+
+    .titre_non_gras {
+        font-size: 16px;
     }
 
     .main-container {
