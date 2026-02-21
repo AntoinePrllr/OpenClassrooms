@@ -318,7 +318,7 @@ h1 {
     font-weight: 700;
 }
 
-.filtres :hover {
+.filtre:hover {
     background-color: rgba(222, 235, 255, 1);
 }
 
@@ -352,6 +352,10 @@ h1 {
     border: none;
     padding: 15px 16px;
     cursor: pointer;
+}
+
+.barre-de-recherche button i {
+    display: none;
 }
 
 /* Enlever le gras du h3 */
@@ -529,6 +533,36 @@ header {
     .main-container {
         margin: 0 auto;
         width: 100%;
+    }
+
+    .barre-de-recherche {
+        width: 100%;
+    }
+
+    .barre-de-recherche input {
+        flex: 1;
+        min-width: 0;
+        border-right: none;
+        text-align: left;
+        padding-left: 24px;
+    }
+
+    .barre-de-recherche button {
+        border-radius: 15px;
+        padding: 15px;
+        margin-left: -15px;
+        box-shadow: 0px 4px 4px 0px #00000040;
+        position: relative;
+        z-index: 2;
+    }
+
+    .barre-de-recherche .btn-text {
+        display: none;
+    }
+
+    .barre-de-recherche button i {
+        display: block;
+        color: white;
     }
 
 }
